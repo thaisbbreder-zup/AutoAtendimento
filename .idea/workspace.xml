@@ -4,12 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bb6c81fb-593e-478c-8d92-22f42015f1bf" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/repositories/ClientRepositoryTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/services/OrderServicesTest.java" afterDir="false" />
+    <list default="true" id="bb6c81fb-593e-478c-8d92-22f42015f1bf" name="Changes" comment=":test_tube: test: corrige test orderDrink e orderSandwich">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/autoAtendimento/repositories/ClientRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/autoAtendimento/repositories/ClientRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/services/OrderServicesTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/services/OrderServicesTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,6 +24,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="ProjectId" id="2TQk8rNZPzAgp10Da5szUto7LG7" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -34,55 +35,19 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "onboarding.tips.debug.path": "C:/Users/thais.breder/Desktop/Atividades/Auto_Atendimento/src/main/java/org/example/Main.java",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.39885056"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/thais.breder/Desktop/Atividades/Auto_Atendimento/src/main/java/org/example/Main.java&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.39885056&quot;
   }
-}]]></component>
-  <component name="RunManager" selected="JUnit.All in Auto_Atendimento">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.autoAtendimento.Main" />
-      <module name="Auto_Atendimento" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.autoAtendimento.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="All in Auto_Atendimento" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Auto_Atendimento" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="TEST_OBJECT" value="package" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ClientRepositoryTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Auto_Atendimento" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="repositories.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="repositories" />
-      <option name="MAIN_CLASS_NAME" value="repositories.ClientRepositoryTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="services in Auto_Atendimento" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+}</component>
+  <component name="RunManager" selected="JUnit.OrderServicesTest">
+    <configuration name="OrderServicesTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Auto_Atendimento" />
       <extension name="coverage">
         <pattern>
@@ -91,17 +56,83 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="services" />
-      <option name="TEST_OBJECT" value="package" />
+      <option name="MAIN_CLASS_NAME" value="services.OrderServicesTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OrderServicesTest.testEditOrderItem" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Auto_Atendimento" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="services.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="services" />
+      <option name="MAIN_CLASS_NAME" value="services.OrderServicesTest" />
+      <option name="METHOD_NAME" value="testEditOrderItem" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OrderServicesTest.testOrderDrink" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Auto_Atendimento" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="services.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="services" />
+      <option name="MAIN_CLASS_NAME" value="services.OrderServicesTest" />
+      <option name="METHOD_NAME" value="testOrderDrink" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OrderServicesTest.testOrderSandwich" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Auto_Atendimento" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="services.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="services" />
+      <option name="MAIN_CLASS_NAME" value="services.OrderServicesTest" />
+      <option name="METHOD_NAME" value="testOrderSandwich" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OrderServicesTest.testRemoveOrderItem" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Auto_Atendimento" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="services.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="services" />
+      <option name="MAIN_CLASS_NAME" value="services.OrderServicesTest" />
+      <option name="METHOD_NAME" value="testRemoveOrderItem" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.All in Auto_Atendimento" />
-        <item itemvalue="Application.Main" />
-        <item itemvalue="JUnit.ClientRepositoryTest" />
-        <item itemvalue="JUnit.services in Auto_Atendimento" />
+        <item itemvalue="JUnit.OrderServicesTest" />
+        <item itemvalue="JUnit.OrderServicesTest.testRemoveOrderItem" />
+        <item itemvalue="JUnit.OrderServicesTest.testOrderDrink" />
+        <item itemvalue="JUnit.OrderServicesTest.testOrderSandwich" />
+        <item itemvalue="JUnit.OrderServicesTest.testEditOrderItem" />
       </list>
     </recent_temporary>
   </component>
@@ -114,7 +145,19 @@
       <option name="presentableId" value="Default" />
       <updated>1690982536591</updated>
     </task>
+    <task id="LOCAL-00001" summary=":test_tube: test: corrige test orderDrink e orderSandwich">
+      <created>1691083603369</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1691083603369</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value=":test_tube: test: corrige test orderDrink e orderSandwich" />
+    <option name="LAST_COMMIT_MESSAGE" value=":test_tube: test: corrige test orderDrink e orderSandwich" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>
