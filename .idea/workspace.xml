@@ -5,21 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bb6c81fb-593e-478c-8d92-22f42015f1bf" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/aws.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/autoAtendimento/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/autoAtendimento/connection/Connection.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/autoAtendimento/models/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/autoAtendimento/repositories/ClientRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/autoAtendimento/services/OrderServices.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/autoAtendimento/ui/Menu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/repositories/ClientRepositoryTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/services/OrderServicesTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/autoAtendimento/repositories/ClientRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/autoAtendimento/repositories/ClientRepository.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,7 +45,7 @@
     "project.structure.side.proportion": "0.39885056"
   }
 }]]></component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.All in Auto_Atendimento">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.autoAtendimento.Main" />
       <module name="Auto_Atendimento" />
@@ -69,9 +59,49 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="All in Auto_Atendimento" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Auto_Atendimento" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ClientRepositoryTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Auto_Atendimento" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="repositories.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="repositories" />
+      <option name="MAIN_CLASS_NAME" value="repositories.ClientRepositoryTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="services in Auto_Atendimento" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Auto_Atendimento" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="services.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="services" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.All in Auto_Atendimento" />
         <item itemvalue="Application.Main" />
+        <item itemvalue="JUnit.ClientRepositoryTest" />
+        <item itemvalue="JUnit.services in Auto_Atendimento" />
       </list>
     </recent_temporary>
   </component>
@@ -85,5 +115,13 @@
       <updated>1690982536591</updated>
     </task>
     <servers />
+  </component>
+  <component name="XDebuggerManager">
+    <watches-manager>
+      <configuration name="JUnit">
+        <watch expression="statement" language="JAVA" />
+        <watch expression="statement" language="JAVA" />
+      </configuration>
+    </watches-manager>
   </component>
 </project>

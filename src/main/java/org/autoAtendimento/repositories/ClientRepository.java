@@ -4,7 +4,6 @@ import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 
-
 import static org.autoAtendimento.connection.Connection.connection;
 import static org.autoAtendimento.connection.Connection.statement;
 
@@ -22,10 +21,11 @@ public class ClientRepository {
     }
 
     //retorna um inteiro representando o ID do último cliente inserido ou -1 se nenhum ID for encontrado
- //A função MAX() é utilizada aqui para obter o valor mais alto de ID, que corresponderá à última linha inserida
+    //A função MAX() é utilizada aqui para obter o valor mais alto de ID, que corresponderá à última linha inserida
     public static int getLastInsertedClientId() {
         String sql = "SELECT MAX(id) FROM client";
-        try (ResultSet rs = statement.executeQuery(sql)) {
+        try (PreparedStatement preparedStatement = connection.prepareStatement(sql);
+             ResultSet rs = preparedStatement.executeQuery()) {
             if (rs.next()) {
                 return rs.getInt(1);
             }
